@@ -55,6 +55,7 @@ export const Login: React.FC = () => {
               Senha
             </label>
             <input
+              autoComplete='off'
               type='password'
               id='password'
               value={password}

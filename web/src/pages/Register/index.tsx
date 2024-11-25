@@ -132,6 +132,7 @@ export const Register: React.FC = () => {
               Senha
             </label>
             <input
+              autoComplete='off'
               type='password'
               id='password'
               value={formData.password}
@@ -146,6 +147,7 @@ export const Register: React.FC = () => {
               Confirmar Senha
             </label>
             <input
+              autoComplete='off'
               type='password'
               id='confirmPassword'
               value={formData.confirmPassword}
